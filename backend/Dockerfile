@@ -2,9 +2,14 @@ FROM eclipse-temurin:17
 
 WORKDIR /app
 
-COPY target/upi-offline-mesh-0.0.1-SNAPSHOT.jar app.jar
+COPY . .
+
+RUN chmod +x mvnw
+
+RUN ./mvnw clean package -DskipTests
 
 EXPOSE 8080
 
-ENTRYPOINT ["java","-jar","app.jar"]
+ENTRYPOINT ["java","-jar","target/upi-offline-mesh-0.0.1-SNAPSHOT.jar"]
+
 
