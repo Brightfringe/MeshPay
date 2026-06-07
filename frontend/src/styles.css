@@ -1,6 +1,6 @@
 @import "tailwindcss" source(none);
-@source "../src";
 @import "tw-animate-css";
+@source "../src";
 
 @custom-variant light (&:is(.light *));
 
@@ -51,11 +51,8 @@
 :root {
   --radius: 0.875rem;
 
-  /* slate-900 #0F172A */
   --background: oklch(0.205 0.041 264);
-  /* gray-900 #111827 */
   --surface: oklch(0.225 0.034 264);
-  /* slate-800 #1E293B */
   --card: oklch(0.278 0.038 264);
   --card-foreground: oklch(0.984 0.003 247);
 
@@ -63,25 +60,20 @@
   --popover-foreground: oklch(0.984 0.003 247);
 
   --foreground: oklch(0.984 0.003 247);
-  /* slate-400 #94A3B8 */
   --muted-foreground: oklch(0.71 0.025 256);
   --muted: oklch(0.31 0.035 264);
 
-  /* indigo-ish #5B5BD6 */
   --primary: oklch(0.55 0.197 280);
   --primary-foreground: oklch(0.99 0 0);
 
-  /* violet-500 #8B5CF6 */
   --accent: oklch(0.63 0.22 296);
   --accent-foreground: oklch(0.99 0 0);
 
   --secondary: oklch(0.31 0.04 264);
   --secondary-foreground: oklch(0.984 0.003 247);
 
-  /* #22C55E */
   --success: oklch(0.74 0.18 145);
   --success-foreground: oklch(0.99 0 0);
-  /* #EF4444 */
   --destructive: oklch(0.66 0.23 27);
   --destructive-foreground: oklch(0.99 0 0);
   --warning: oklch(0.79 0.17 75);
@@ -199,7 +191,6 @@
   }
 }
 
-/* Signal pulse */
 @keyframes signal-pulse {
   0% { transform: scale(0.6); opacity: 0.8; }
   100% { transform: scale(2.2); opacity: 0; }
