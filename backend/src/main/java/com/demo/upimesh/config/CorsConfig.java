@@ -15,8 +15,13 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:8081")
-                        .allowedMethods("*");
+                        .allowedOriginPatterns(
+                            "http://localhost:*",
+                            "https://mesh-pay-4o6k.vercel.app",
+                            "https://*.vercel.app"
+                        )
+                        .allowedMethods("*")
+                        .allowedHeaders("*");
             }
         };
     }
