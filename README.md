@@ -6,7 +6,7 @@
 <br/>
 
 [![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-mesh--pay--4o6k.vercel.app-00f5d4?style=for-the-badge&logo=vercel&logoColor=white)](https://mesh-pay-4o6k.vercel.app/)
-[![Backend](https://img.shields.io/badge/⚙️%20Backend-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com)
+[![Backend](https://img.shields.io/badge/⚙️%20Backend-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://meshpay-q0o8.onrender.com)
 [![Frontend](https://img.shields.io/badge/🚀%20Frontend-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://mesh-pay-4o6k.vercel.app/)
 
 <br/>
@@ -76,7 +76,7 @@
 
 ### Deployment
 [![Vercel](https://img.shields.io/badge/Vercel-Frontend-black?style=for-the-badge&logo=vercel&logoColor=white)](https://mesh-pay-4o6k.vercel.app/)
-[![Render](https://img.shields.io/badge/Render-Backend-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com)
+[![Render](https://img.shields.io/badge/Render-Backend-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://meshpay-q0o8.onrender.com)
 
 </div>
 
@@ -87,7 +87,7 @@
 | Layer | Platform | URL |
 |-------|----------|-----|
 | 🖥️ **Frontend** | Vercel | [https://mesh-pay-4o6k.vercel.app/](https://mesh-pay-4o6k.vercel.app/) |
-| ⚙️ **Backend** | Render | Auto-deployed Spring Boot REST API |
+| ⚙️ **Backend** | Render | [https://meshpay-q0o8.onrender.com](https://meshpay-q0o8.onrender.com) |
 
 > **Note:** The backend is hosted on Render's free tier. On first load, the server may take **~30–60 seconds** to spin up from sleep. Please wait a moment if the dashboard shows a loading state.
 
